@@ -6,5 +6,71 @@
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="intro">
+      <div>
+        <img src="./img/odin.png" alt="logo" />
+        <h1>ODIN</h1>
+      </div>
+      <div>
+        Photo by
+        <a
+          href="https://unsplash.com/@vorosbenisop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Benjamin Voros
+        </a>
+        on
+        <a
+          href="https://unsplash.com/photos/snow-mountain-under-stars-phIFdC6lA4E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Unsplash
+        </a>
+      </div>
+    </div>
+    <div>
+      <p>
+        This is not real online service! You know you need something like this
+        in your life to help you realize your deepest dreams. Sign up
+        <i>now</i> to get started.
+      </p>
+      <p>you know you want to.</p>
+
+      <form action="myhandling-page.php" method="get">
+        <legend>Let's do this!</legend>
+        <div class="username">
+          <div>
+            <label for="first_name">FIRST NAME</label><br />
+            <input type="text" id="first_name" name="user_fname" />
+          </div>
+          <div>
+            <label for="last_name">LAST NAME</label><br />
+            <input type="text" id="last_name" name="user_lname" />
+          </div>
+        </div>
+        <div class="contact">
+          <div>
+            <label for="email">EMAIL</label><br />
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="number">PHONE NUMBER</label><br />
+            <input type="number" id="number" name="number" />
+          </div>
+        </div>
+
+        <div class="password">
+          <div>
+            <label for="password">PASSWORD</label><br />
+            <input type="password" name="password" id="password" />
+          </div>
+          <div>
+            <label for="password">CONFIRM PASSWORD</label><br />
+            <input type="password" id="password" name="password" />
+          </div>
+        </div>
+      </form>
+
+      <button type="submit">Create Account</button>
+
+      <p>Already have an account? <a href="#">Log in</a></p>
+    </div>
+  </body>
 </html>
