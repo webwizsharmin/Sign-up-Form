@@ -86,3 +86,15 @@ button {
 button ~ p {
   margin: 0.2rem 2rem;
 }
+
+input:focus::before {
+  border-color: gray;
+}
+
+input:valid {
+  border-color: green;
+}
+
+input:invalid {
+  border-color: red;
+}
